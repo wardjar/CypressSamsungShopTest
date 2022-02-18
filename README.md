@@ -14,7 +14,7 @@
 - Then verifies that the error messages has dissapeared
 
 ### Results
-- TestNG shows the number of excuted tests and the number of sucessful and failed ones.
+- Cypress shows the number of excuted tests and the number of sucessful and failed ones.
 - If an error occurs a screen shot is generated
 - The run is video recorded
 - A log file is generated 
