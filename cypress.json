@@ -1,0 +1,31 @@
+{
+  "baseUrl": "https://www.samsung.com/in/",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "cypress/reports/specs-reports",
+    "reportFileName": "report",
+    "overwrite": true,
+    "html": false,
+    "json": true,
+    "charts":true
+  },
+ 
+  "screenshotOnRunFailure": true,
+  "screenshotsFolder": "cypress/reports/regression-report/assets",
+  "videosFolder": "cypress/reports/regression-report/assets",
+  "videoUploadOnPasses": false,
+  "video": true,
+  "env": {
+    "shopSearch": "Galaxy S20 FE 5G",
+    "invalidFirstName":"12121",
+    "invalidLastName":"21211",
+    "invalidPostalCode":"awde",
+    "invalidEmail":"ward",
+    "invalidPhoneNumber":"0000",
+    "firstName":"ward",
+    "lastName":"jaradat",
+    "postalCode":"000121",
+    "email":"ward@gmail.com",
+    "phoneNumber":"1212212212"
+  }
+}

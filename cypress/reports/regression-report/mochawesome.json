@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-02-18T11:32:30.460Z",
+    "end": "2022-02-18T11:33:49.644Z",
+    "duration": 79047,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "31c71aa8-0267-45e9-936e-4996ca2153a3",
+      "title": "",
+      "fullFile": "cypress/integration/tests/samsungShop/SamsunShopTest.spec.js",
+      "file": "cypress/integration/tests/samsungShop/SamsunShopTest.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c548f1b8-beb6-4a4f-b59d-8e8d46cd6f72",
+          "title": "samsung shop item checkout tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "chockoutAddressNegativeTest",
+              "fullTitle": "samsung shop item checkout tests chockoutAddressNegativeTest",
+              "timedOut": null,
+              "duration": 75595,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_CheckoutPage.default.writeInvalidFirstName();\n_CheckoutPage.default.writeInvalidLastName();\n_CheckoutPage.default.writeInvalidPostalCode();\n_CheckoutPage.default.writeInvalidEmail();\n_CheckoutPage.default.writeInvalidPhoneNumber();\n_CheckoutPage.default.writeInvalidAlternatePhoneNumber();\n_CheckoutPage.default.verifyFirstNameValidationError();\n_CheckoutPage.default.verifyLastNameValidationError();\n_CheckoutPage.default.verifyPostalCodeValidationError();\n_CheckoutPage.default.verifyEmailValidationError();\n_CheckoutPage.default.verifyPhoneValidationError();\n_CheckoutPage.default.verifyAlternatePhoneValidationError();",
+              "err": {},
+              "uuid": "5320a911-609d-4e1c-a850-d3e27b081b0d",
+              "parentUUID": "c548f1b8-beb6-4a4f-b59d-8e8d46cd6f72",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "chockoutAddressPositiveTest",
+              "fullTitle": "samsung shop item checkout tests chockoutAddressPositiveTest",
+              "timedOut": null,
+              "duration": 3452,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_CheckoutPage.default.writeFirstName();\n_CheckoutPage.default.writeLastName();\n_CheckoutPage.default.writePostalCode();\n_CheckoutPage.default.writeEmail();\n_CheckoutPage.default.writePhoneNumber();\n_CheckoutPage.default.writeAlternatePhoneNumber();\n_CheckoutPage.default.verifyFirstNameIsValid();\n_CheckoutPage.default.verifyLastNameIsValid();\n_CheckoutPage.default.verifyPostalCodeIsValid();\n_CheckoutPage.default.verifyEmailIsValid();\n_CheckoutPage.default.verifyPhoneIsValid();\n_CheckoutPage.default.verifyAlternatePhoneIsValid();",
+              "err": {},
+              "uuid": "ae9a4df8-1067-4f19-b385-4fee28869e8c",
+              "parentUUID": "c548f1b8-beb6-4a4f-b59d-8e8d46cd6f72",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5320a911-609d-4e1c-a850-d3e27b081b0d",
+            "ae9a4df8-1067-4f19-b385-4fee28869e8c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 79047,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports/specs-reports",
+        "reportFileName": "report",
+        "overwrite": true,
+        "html": false,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
